@@ -1,26 +1,33 @@
 body {
 
-font-family: Arial, sans-serif;
+font-family:Arial, sans-serif;
+font-size: larger;
+color: #01000e;
 
-color: #0b0b0b;
-
-background-color: #f9f8fc;
-
-margin: 0;
-
-padding: 0;
-
-line-height: 1.6;
+background-color: rgb(249, 249, 248);
+background-image: url('');
+background-size: cover;
+            background-position: center;
+        
+            background-attachment: fixed;
 }
 header{
-    background-color: #b511de;
+    background-color: #7bc2ee;
     color: rgb(10, 9, 15);
     padding: 20px;
     text-align: center;
+    text-underline-position: below;
 }
 header h1{
-    margin: 0;
+    margin: 3%;
+    text-underline-position: below;
+    color: black;
+    
 }
+header h2{
+    margin: 5%;
+}
+ 
 nav a {
 
 color: rgb(5, 44, 237);
